@@ -15,6 +15,22 @@ body {
     gap: 20px;
 }
 
+.menu {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.sub-menu {
+    background: rgb(64, 45, 146);
+    color: #C7C75A;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
 .pt1 {
     display: grid;
     gap: 20px;
